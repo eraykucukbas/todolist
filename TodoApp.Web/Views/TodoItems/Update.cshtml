@@ -1,0 +1,32 @@
+﻿@{
+ViewData["Title"] = "Update";
+}
+@model TodoItemDto
+
+<h1 class="d-flex justify-content-center">Update Todo Item</h1>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <form asp-action="Update" method="post" asp-controller="TodoItems">
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="TodoListId" />
+            @* <input type="hidden" name="todoListId" value="@ViewBag.todoListId" /> *@
+
+            <div class="form-group my-2">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group my-2">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group my-2 d-flex justify-content-center">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

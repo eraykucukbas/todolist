@@ -1,0 +1,17 @@
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Service.deps.json
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Service.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Service.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Repository.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/bin/Debug/net8.0/NLayer.Core.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.csproj.AssemblyReference.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.AssemblyInfoInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.AssemblyInfo.cs
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.csproj.CoreCompileInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.S.636D47A2.Up2Date
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/refint/NLayer.Service.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/NLayer.Service.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Service/obj/Debug/net8.0/ref/NLayer.Service.dll

@@ -1,0 +1,17 @@
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Repository.deps.json
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Repository.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Core.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.csproj.AssemblyReference.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.AssemblyInfoInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.AssemblyInfo.cs
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.csproj.CoreCompileInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.R.11436BBB.Up2Date
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/refint/NLayer.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/ref/NLayer.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/bin/Debug/net8.0/NLayer.Repository.runtimeconfig.json
+/Users/ray/RiderProjects/NLayerTodoApp/NLayer.Repository/obj/Debug/net8.0/NLayer.Repository.genruntimeconfig.cache

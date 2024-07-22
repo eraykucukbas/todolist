@@ -1,0 +1,138 @@
+﻿@model TodoApp.Core.DTOs.TodoListWithTodoItemDto
+
+@{
+    ViewData["Title"] = "Todo Items";
+}
+<div class="container">
+    <div class="d-flex justify-content-between mb-3">
+        <div>
+            <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Back to List</a>
+        </div>
+        <h2 class="text-center flex-grow-1">@Model.Title</h2>
+        <div>
+            <button class="btn @(Model.IsCompleted ? "btn-danger" : "btn-success")" id="completeButton" onclick="toggleTodoListComplete(@Model.Id)">
+                @(Model.IsCompleted ? "Undo" : "Complete")
+            </button>
+        </div>
+    </div>
+
+    <div class="row my-2 d-flex justify-content-center">
+        <div class="col-md-5 input-group mb-3">
+            <input @(Model.IsCompleted ? "disabled" : "") type="text" class="form-control" placeholder="Todo Title" id="newTodoItemTitle">
+        </div>
+        <div class="col-md-5 input-group mb-3">
+            <input @(Model.IsCompleted ? "disabled" : "") type="text" class="form-control" placeholder="Todo Description" id="newTodoItemDescription">
+        </div>
+        <div class="col-md-2 d-flex justify-content-center">
+            <button @(Model.IsCompleted ? "disabled" : "") class="btn btn-primary ml-2" type="button" id="addTodoItem">Add</button>
+        </div>
+    </div>
+
+    @if (Model.TodoItems != null && Model.TodoItems.Any())
+    {
+        <div>
+            @foreach (var item in Model.TodoItems)
+            {
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between justify-content-end row">
+                            <div class="col-xl-11 col-lg-10 col-md-8 col-sm-8 col-xs-8 col-7 flex-column">
+                                <h4 class="card-text mb-1">@item.Title</h4>
+                                <p class="card-text">@item.Description</p>
+                            </div>
+                            <div class="col-xl-1 col-lg-2 col-md-4 col-sm-4 col-xs-4 col-5 d-flex flex-column">
+                                <button @(Model.IsCompleted ? "disabled" : "") class="btn btn-sm btn-@(item.IsCompleted ? "danger" : "success") text-white" type="button" onclick="toggleTodoItemComplete(@item.Id)">
+                                    @(item.IsCompleted ? "Undo" : "Complete")
+                                </button>
+                        
+                                <a class="btn btn-sm btn-warning text-white my-2" asp-controller="TodoItems" asp-action="Update" asp-route-id="@item.Id">Update</a>
+
+                                @* <a class="btn btn-info" asp-controller="TodoItems" asp-action="Index" asp-route-id="@item.Id">Show</a> *@
+
+                                <a asp-controller="TodoItems" asp-action="Remove" asp-route-id="@item.Id" asp-route-todoListId="@Model.Id" class="btn btn-sm btn-danger text-white">
+                                    @* <button @(Model.IsCompleted ? "disabled" : "") type="button"> *@
+                                        <i class="fas fa-times"></i>
+                                    @* </button> *@
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No todo items found.</p>
+    }
+</div>
+<script>
+    function toggleTodoItemComplete(id) {
+        fetch('@Url.Action("IsCompletedTrigger", "TodoItems")', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+            },
+            body: JSON.stringify({ Id: id })
+        }).then(response => {
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Failed');
+            }
+        }).catch(error => {
+            console.error('Error:', error);
+            alert('Something went wrong');
+        });
+    }
+    
+    function toggleTodoListComplete(id) {
+        fetch('@Url.Action("IsCompletedTrigger", "Home")', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+            },
+            body: JSON.stringify({ Id: id })
+        }).then(response => {
+            if (response.ok) {
+                location.reload();
+            } else {
+                alert('Failed');
+            }
+        }).catch(error => {
+            console.error('Error:', error);
+            alert('Something went wrong');
+        });
+    }
+
+    document.getElementById("addTodoItem").addEventListener("click", function() {
+        var newItemTitle = document.getElementById("newTodoItemTitle").value;
+        var newItemDescription = document.getElementById("newTodoItemDescription").value;
+        if (newItemTitle && newItemDescription) {
+            var todoListId = @Model.Id;
+
+            fetch('@Url.Action("Save", "TodoItems")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                },
+                body: JSON.stringify({
+                    Title: newItemTitle,
+                    Description: newItemDescription,
+                    TodoListId: todoListId
+                })
+            }).then(response => {
+                if (response.ok) {
+                    location.reload();
+                } else {
+                    alert('Failed to add todo item.');
+                }
+            });
+        } else {
+            alert('Please enter both title and description.');
+        }
+    });
+</script>

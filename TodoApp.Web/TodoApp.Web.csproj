@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>TodoApp.Web</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TodoApp.Service\TodoApp.Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Order\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_NavbarLogin.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\AccessDenied.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\Claims.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\ExchangePage.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\PasswordChange.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\UserEdit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Member\ViolencePage.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\ForgetPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\ResetPassword.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\SignIn.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\SignUp.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\TodoItems\Index.cshtml" />
+      <AdditionalFiles Include="Views\TodoItems\Save.cshtml" />
+      <AdditionalFiles Include="Views\TodoItems\Update.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+    </ItemGroup>
+
+</Project>

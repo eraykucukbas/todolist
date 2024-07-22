@@ -1,0 +1,17 @@
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Repository.deps.json
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Repository.runtimeconfig.json
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Repository.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/bin/Debug/net8.0/TodoApp.Core.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.csproj.AssemblyReference.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.AssemblyInfoInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.AssemblyInfo.cs
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.csproj.CoreCompileInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp..D1716A01.Up2Date
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/refint/TodoApp.Repository.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/TodoApp.Repository.genruntimeconfig.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Repository/obj/Debug/net8.0/ref/TodoApp.Repository.dll

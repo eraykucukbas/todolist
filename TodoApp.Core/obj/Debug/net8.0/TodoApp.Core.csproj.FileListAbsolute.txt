@@ -1,0 +1,12 @@
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/bin/Debug/net8.0/TodoApp.Core.deps.json
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/bin/Debug/net8.0/TodoApp.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/bin/Debug/net8.0/TodoApp.Core.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.csproj.AssemblyReference.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.AssemblyInfoInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.AssemblyInfo.cs
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.csproj.CoreCompileInputs.cache
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/refint/TodoApp.Core.dll
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/TodoApp.Core.pdb
+/Users/ray/RiderProjects/NLayerTodoApp/TodoApp.Core/obj/Debug/net8.0/ref/TodoApp.Core.dll
